@@ -29,3 +29,11 @@ Therefore, 298 K should be treated as the strongest validated simulation case. T
 ## Recommended Conclusion
 
 The Al-Fum pyIAST model is directionally valid near ambient temperature. At 298 K, the CH4/N2 selectivity closely matches literature, supporting the model. However, low-loading N2 data causes instability at 273 K and 313 K, so those results should not be overinterpreted.
+
+## CH4/N2 Selectivity vs Temperature
+
+![CH4/N2 Selectivity](figures/ch4_n2_selectivity_vs_temperature.png)
+
+### Interpretation
+
+The 298 K result (10.74) closely matches the literature value (~11.7) and is considered the most reliable prediction. The elevated selectivities at 273 K and 313 K are likely caused by instability in the low-loading N2 isotherms and should be treated as sensitivity results.

@@ -9,3 +9,7 @@ results*.csv
 *.jpeg
 *.pdf
 *.zip
+*.log
+*.tmp
+*.bak
+.DS_Store

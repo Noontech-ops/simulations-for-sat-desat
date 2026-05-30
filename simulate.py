@@ -57,8 +57,8 @@ for T, iso_ch4, iso_n2 in [
     print(f"  {T}K: CH4={q[0]:.4f} mmol/g, N2={q[1]:.4f} mmol/g, Selectivity={S:.2f}")
     rows.append({"Temp(K)": T, "CH4_loading": round(q[0],4), "N2_loading": round(q[1],4), "Selectivity_CH4/N2": round(S,2)})
 
-pd.DataFrame(rows).to_csv("results_ch4_n2.csv", index=False)
-print("Saved results_ch4_n2.csv")
+    pd.DataFrame(rows).to_csv("results/results_ch4_n2.csv", index=False)
+    print("Saved results/results_ch4_n2.csv")
 # Write interpretation summary to README_RESULTS.md
 readme_text = """# Al-Fum pyIAST Simulation Results
 
@@ -125,8 +125,8 @@ for ax, df_ch4, df_n2, iso_ch4, iso_n2, T, color in [
     ax.legend(fontsize=7)
     ax.grid(alpha=0.3)
 plt.tight_layout()
-plt.savefig("isotherms_all_temps.png", dpi=150)
-print("Saved isotherms_all_temps.png")
+    plt.savefig("figures/isotherms_all_temps.png", dpi=150)
+    print("Saved figures/isotherms_all_temps.png")
 
 # Selectivity sweep: CH4/N2 at all 3 temps
 y_range = np.linspace(0.01, 0.99, 50)
@@ -147,6 +147,6 @@ plt.title("Al-Fum CH4/N2 Selectivity @ 1 bar")
 plt.legend()
 plt.grid(alpha=0.3)
 plt.tight_layout()
-plt.savefig("ch4_n2_selectivity_alltemps.png", dpi=150)
-print("Saved ch4_n2_selectivity_alltemps.png")
+    plt.savefig("figures/ch4_n2_selectivity_alltemps.png", dpi=150)
+    print("Saved figures/ch4_n2_selectivity_alltemps.png")
 print("\nAll done!")

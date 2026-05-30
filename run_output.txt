@@ -1,0 +1,21 @@
+CO2 303K: M=5.684, K=0.557
+CH4 273K: M=6.190, K=0.388
+CH4 298K: M=5.334, K=0.267
+CH4 313K: M=5.094, K=0.194
+N2 273K: InterpolatorIsotherm used
+N2 298K: InterpolatorIsotherm used
+N2 313K: InterpolatorIsotherm used
+
+=== CH4/N2 IAST (50/50 mol%, 1 bar) ===
+  273K: CH4=0.9291 mmol/g, N2=0.0253 mmol/g, Selectivity=36.69
+  298K: CH4=0.5432 mmol/g, N2=0.0506 mmol/g, Selectivity=10.74
+  313K: CH4=0.4273 mmol/g, N2=0.0068 mmol/g, Selectivity=62.85
+Saved results_ch4_n2.csv
+Wrote README_RESULTS.md
+
+=== CO2/N2 IAST (15/85 mol%, 1 bar, 303K) ===
+  CO2=0.3278 mmol/g, N2=0.1059 mmol/g, Selectivity=17.55
+Saved isotherms_all_temps.png
+Saved ch4_n2_selectivity_alltemps.png
+
+All done!

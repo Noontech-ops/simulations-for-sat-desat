@@ -35,3 +35,5 @@ Links:
 - O2 uncertainty is bounded and not expected to dominate methane capture performance.
 - Humidity is expected to be the most important future competitive adsorbate.
 - The framework is suitable for extension to realistic dairy-barn-air simulations.
+
+Literature reports CH₄/N₂ selectivities of approximately 11–17 for Al-fumarate, demonstrating strong methane preference over nitrogen and supporting its use for methane capture applications.
